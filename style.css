@@ -1,0 +1,416 @@
+/* font */
+@font-face {
+    font-family: Conduit-bold;
+    src: url(./Conduit\ ITC\ Bold.otf);
+}
+@font-face {
+    font-family: conduit-regular;
+    src: url(./Conduit\ ITC\ Regular.otf);
+}
+@font-face {
+    font-family: Conduit-italic;
+    src: url(./Conduit\ ITC\ Italic.otf);
+}
+
+/* extra css */
+* {
+    margin: 0;
+    padding: 0;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+/* header area css */
+.header-area {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.header-top {
+    background-color: #004d41;
+    padding: 7px 0;
+}
+.header-top-left {
+}
+.header-top-left span {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    padding-right: 10px;
+}
+.header-top-left input {
+    background-color: #004d41;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: conduit-regular;
+    font-weight: 400;
+}
+.header-top-left input:focus {
+    outline-style: none;
+}
+.header-top-right {
+}
+.header-top-right ul {
+    list-style: none;
+}
+.header-top-right ul li {
+    display: inline-block;
+}
+.header-top-right ul li a {
+    padding: 0 8px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 16px;
+    font-family: conduit-regular;
+    font-weight: 500;
+    transition: 0.5s;
+}
+.header-top-right ul li a:hover {
+    text-decoration: underline;
+}
+
+/* header bottom */
+.header-bottom {
+    background-color: #195c52;
+    padding: 12px 0;
+}
+.header-bottom-left {
+    width: 40%;
+    text-align: right;
+}
+.header-bottom-left ul {
+    list-style: none;
+    padding-right: 20px;
+}
+.header-bottom-left ul li {
+    display: inline-block;
+}
+.header-bottom-left ul li a {
+    text-decoration: none;
+    color: #f7a94a;
+    font-size: 16px;
+    line-height: 21px;
+    font-family: "Conduit-bold";
+    font-weight: 900;
+    padding: 0 20px;
+}
+.header-bottom-left ul li a:hover {
+    color: #fff;
+}
+.header-bottom-center {
+    width: 20%;
+    position: relative;
+}
+.header-bottom-center a img {
+    max-width: 100%;
+    position: absolute;
+    top: -12px;
+    left: 0;
+    z-index: 9;
+}
+.header-bottom-right {
+    width: 40%;
+    padding-left: 150px;
+}
+.header-bottom-right ul {
+    list-style: none;
+}
+.header-bottom-right ul li {
+    display: inline-block;
+}
+.header-bottom-right ul li a {
+    text-decoration: none;
+    color: #f7a94a;
+    font-size: 16px;
+    line-height: 21px;
+    font-family: "Conduit-bold";
+    font-weight: 900;
+    padding: 0 20px;
+}
+.header-bottom-right ul li a:hover {
+    color: #fff;
+}
+
+/* banner section */
+.banner-section {
+    position: relative;
+}
+.video-title {
+    position: absolute;
+    top: 198px;
+    left: 500px;
+}
+.video-title h1 {
+    color: #fff;
+    font-size: 76px;
+    line-height: 72px;
+    text-align: center;
+    font-family: "Conduit-bold";
+    font-weight: 900;
+}
+/* about section */
+.first-photo {
+    background-image: url(./html-template/asset\ 10.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+    margin: 20px 0;
+}
+.first-photo-text {
+}
+.first-photo-text h1 {
+    color: #fff;
+    font-size: 50px;
+    line-height: 50px;
+    font-family: "Conduit-bold";
+    font-weight: 500;
+    padding-left: 50px;
+    width: 400px;
+    padding-bottom: 15px;
+}
+.first-photo-text p {
+    font-size: 23px;
+    line-height: 23px;
+    color: #fff;
+    font-family: "conduit-regular";
+    font-weight: 400;
+    padding-left: 50px;
+    width: 425px;
+    padding-bottom: 25px;
+}
+.first-photo-text a {
+    color: #fec323;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Conduit-bold";
+    font-weight: 900;
+    padding-left: 50px;
+}
+.first-photo-text a:hover {
+    color: #fff;
+}
+.first-photo-text a i {
+    font-size: 15px;
+    font-weight: 900;
+}
+.second-photo {
+    margin-bottom: 20px;
+}
+.second-photo-left {
+    width: 34%;
+    background-image: url(./html-template/asset\ 11.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 300px;
+    padding-top: 30px;
+}
+.second-photo-right {
+    width: 64%;
+    background-image: url(./html-template/asset\ 12.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 195px 0;
+}
+.second-photo-text {
+}
+.second-photo-text h1 {
+    color: #fff;
+    font-size: 40px;
+    line-height: 40px;
+    font-family: "Conduit-bold";
+    font-weight: 500;
+    padding-left: 30px;
+    padding-bottom: 8px;
+}
+.second-photo-text p {
+    font-size: 20px;
+    line-height: 20px;
+    color: #fff;
+    font-family: "conduit-regular";
+    font-weight: 400;
+    padding-left: 30px;
+    padding-bottom: 15px;
+}
+.second-photo-text a {
+    color: #fec323;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Conduit-bold";
+    font-weight: 900;
+    padding-left: 30px;
+}
+.second-photo-text a:hover {
+    color: #fff;
+}
+.second-photo-text a i {
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.fourth-photo-left {
+    width: 65%;
+}
+.fourth-photo-right {
+    width: 35%;
+    background-image: url(./html-template/asset\ 25.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fourth-photo-text {
+    padding: 50px 0 97px 50px;
+}
+
+.fourth-photo-text h1 {
+    color: #fff;
+    font-size: 40px;
+    line-height: 34px;
+    font-family: "Conduit-bold";
+    font-weight: 900;
+    width: 185px;
+}
+.fifth-photo {
+    background-image: url(./html-template/asset\ 26.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 136px 0;
+    margin: 20px 0;
+}
+.fifth-photo-text {
+    text-align: center;
+}
+.fifth-photo-text h1 {
+    color: #0a4b3e;
+    font-size: 65px;
+    line-height: 72px;
+    font-family: Conduit-bold;
+    font-weight: 900;
+}
+.fifth-photo-text p {
+    color: #000000;
+    font-family: "conduit-regular";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    width: 690px;
+    margin: 0 auto;
+}
+/* footer section */
+.footer-section {
+}
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.footer-top {
+    background-color: #004d41;
+    padding: 20px 0;
+}
+.footer-top-left {
+    width: 45%;
+    position: relative;
+}
+.footer-top-left h3 {
+    color: #fff;
+    font-size: 18px;
+    line-height: 28px;
+    font-family: Conduit-bold;
+    font-weight: 500;
+}
+.footer-top-left input {
+    background-color: #fff;
+    padding: 13px 130px 13px 20px;
+    border: none;
+    color: #333;
+    font-size: 16px;
+    line-height: 23px;
+}
+.footer-top-left i {
+    color: #004d41;
+    font-size: 23px;
+    font-weight: 600;
+    position: absolute;
+    top: 40px;
+    right: 220px;
+}
+.footer-top-left input:focus {
+    outline-style: none;
+}
+.footer-top-center {
+    width: 10%;
+    margin-top: 15px;
+}
+.footer-top-center a img {
+    max-width: 100%;
+}
+.footer-top-right {
+    width: 45%;
+    text-align: right;
+    margin-top: 25px;
+}
+.footer-top-right a {
+}
+.footer-top-right a i {
+    color: #fff;
+    font-size: 22px;
+    padding-left: 25px;
+}
+.footer-top-right a img {
+    padding-left: 20px;
+    vertical-align: bottom;
+}
+.footer-bottom {
+    background-color: #004338;
+    padding: 14px 0;
+}
+.footer-bottom-left a {
+    color: #fff;
+    font-size: 18px;
+    line-height: 28px;
+    font-family: "conduit-regular";
+    font-weight: 400;
+}
+.footer-bottom-left a:hover{
+    color: #fec323;
+}
+.footer-bottom-right {
+}
+.footer-bottom-right p {
+    color: #fff;
+    font-size: 12px;
+    line-height: 17px;
+    font-family: "conduit-regular";
+    font-weight: 400;
+}
+.footer-bottom-right p a {
+    color: #fff;
+    font-size: 12px;
+    line-height: 28px;
+    font-family: "conduit-regular";
+    font-weight: 400;
+    text-decoration: none;
+}
+.footer-bottom-right p a:hover{
+    color: #fec323;
+    text-decoration: underline;
+}
